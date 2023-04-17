@@ -14,7 +14,7 @@
     <a class="nav-link active" aria-current="page" href="{{route('homepage')}}">Home</a>
 </li>
 <li class="nav-item">
-    <a class="nav-link" href="#">Zodiac Signs</a>
+    <a class="nav-link" href="{{route('signs')}}">Zodiac Signs</a>
 </li>
 <li class="nav-item">
     <a class="nav-link" href="#">Shop</a>

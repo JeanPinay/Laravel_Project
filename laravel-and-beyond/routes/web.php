@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\SignController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,8 +14,6 @@ use App\Http\Controllers\HomeController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+//links for the header
 Route::get('/',[HomeController::class,'show'])->name('homepage');
+Route::get('/signs',[SignController::class,'show'])->name('signs');
