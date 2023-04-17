@@ -10,3 +10,5 @@ class SignController extends Controller
         return view('signs');
     }
 }
+
+

@@ -17,3 +17,4 @@ use App\Http\Controllers\SignController;
 //links for the header
 Route::get('/',[HomeController::class,'show'])->name('homepage');
 Route::get('/signs',[SignController::class,'show'])->name('signs');
+Route::get('/signs/{sign:slug}',[SignController::class,'showDetail'])->name('sign-detail');
