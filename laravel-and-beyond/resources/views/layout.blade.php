@@ -12,6 +12,7 @@
 
 @include ('header')
 @yield ('homepage')
+@yield ('signs')
 @include ('footer')
 </body>
 </html>

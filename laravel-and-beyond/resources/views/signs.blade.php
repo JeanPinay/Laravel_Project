@@ -1,3 +1,6 @@
+@extends ('layout')
+@section ('signs')
+
 <!-- TODO: loop here -->
 <div class="album py-5 bg-light">
     <div class="container">
@@ -19,3 +22,4 @@
             </div>
           </div>
         </div>
+@endsection
