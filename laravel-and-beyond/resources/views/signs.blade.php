@@ -1,10 +1,10 @@
 @extends('layout')
 
 @section('signs')
-<div class="p-4 p-md-5 mb-4 text-white rounded" style="background-color: #6096B4;">
+<div class="p-4 p-md-5 mb-4 text-black rounded" style="background-color: #C8C2BC;">
     <div class="col-lg-9 col-md-8 mx-auto">
       <h1 class="fw-light display-4 fst-italic">BIRTH DATE</h1>
-      <p class="lead my-3">
+      <p class="lead my-3" style="color: #2C3333;">
   In an ideal world, you'd know the date, time and place
   of your cat's birth, but just having their birth date will tell
   you which of the 12 zodiac Signs they are. If you are getting
@@ -27,7 +27,7 @@
   <div class="col-md-3 mb-4">
     <div class="card h-100">
       <!-- <img src="..." class="card-img-top" alt="..."> -->
-    <div class="card-body" style="background-color: #B5D5C5;">
+    <div class="card-body" style="background-color: #E5E5CB;">
       <h5 class="card-title"><x-sign-preview-card :sign="$sign" /></h5>
         <p class="card-text">{{$sign->date}}</p>
           <ul class="list-group list-group-flush">

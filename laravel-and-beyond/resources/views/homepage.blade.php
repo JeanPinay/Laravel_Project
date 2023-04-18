@@ -2,7 +2,7 @@
 @section('homepage')
 
 <main>
-<div class="p-4 p-md-5 mb-4 text-white rounded" style="background-color: #93C6E7;">
+<div class="p-4 p-md-5 mb-4 text-black rounded" style="background-color: #C8C2BC;">
     <div class="col-lg-9 col-md-8 mx-auto">
       <h1 class="fw-light display-4 fst-italic">Cat Astrology</h1>
       <p class="lead my-3" style="color: #2C3333;">
@@ -34,7 +34,7 @@ how much we dearly love our cats with all their quirky ways.</p>
   </div>
 </div>
 
-<section class="py-5 text-center container">
+<section class="py-5 text-center container ">
   <div class="row py-lg-5">
     <div class="col-lg-9 col-md-8 mx-auto">
       <h1 class="fw-light">Acknowledgements</h1>

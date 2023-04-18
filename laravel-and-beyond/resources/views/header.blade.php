@@ -8,10 +8,10 @@
     <title>Home</title>
 </head>
 <body>
-<nav class="navbar" style="background-color: #A3C7D6;">
-<ul class="nav nav-underline">
+<nav class="navbar" style="background-color: #6E85B2;">
+<ul class="nav nav-pills nav-fill">
 <li class="nav-item">
-    <a class="nav-link" aria-current="page" href="{{route('homepage')}}">Home</a>
+    <a class="nav-link" href="{{route('homepage')}}">Home</a>
 </li>
 <li class="nav-item">
     <a class="nav-link" href="{{route('signs')}}">Zodiac Sign</a>
