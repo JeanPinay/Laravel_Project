@@ -8,13 +8,13 @@
     <title>Home</title>
 </head>
 <body>
-<nav class="navbar" style="background-color: #e3f2fd;">
+<nav class="navbar" style="background-color: #A3C7D6;">
 <ul class="nav nav-underline">
 <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="{{route('homepage')}}">Home</a>
+    <a class="nav-link" aria-current="page" href="{{route('homepage')}}">Home</a>
 </li>
 <li class="nav-item">
-    <a class="nav-link" href="{{route('signs')}}">Zodiac Signs</a>
+    <a class="nav-link" href="{{route('signs')}}">Zodiac Sign</a>
 </li>
 <li class="nav-item">
     <a class="nav-link" href="#">Shop</a>

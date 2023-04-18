@@ -2,10 +2,10 @@
 @section('homepage')
 
 <main>
-<div class="p-4 p-md-5 mb-4 text-white rounded" style="background-color: #6096B4;">
+<div class="p-4 p-md-5 mb-4 text-white rounded" style="background-color: #93C6E7;">
     <div class="col-lg-9 col-md-8 mx-auto">
       <h1 class="fw-light display-4 fst-italic">Cat Astrology</h1>
-      <p class="lead my-3">
+      <p class="lead my-3" style="color: #2C3333;">
       Just like us, every cat is born under an astrological sun sign
 which is determined by their date of birth. If you know the
 exact time and place of your cat's birth, you can have their
