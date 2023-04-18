@@ -1,7 +1,7 @@
 <!-- <div class="container my-5"> -->
 <section class="">
 <footer class="text-center text-white" style="background-color: #A3C7D6;">
-    <div class="container p-2 pb-2">
+    <div class="container p-2 pb-0">
     <section class="">
         <p class="d-flex justify-content-center align-items-center">
         <span class="me-3">Register for free</span>
