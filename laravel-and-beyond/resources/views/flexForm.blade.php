@@ -4,11 +4,11 @@
 <div class="p-5 text-center " style="background-image: url('https://img.freepik.com/premium-vector/seamless-pattern-constellation-cats-hand-draw-style-night-cat-stars-lines-original-texture-textile-fabric-wallpaper-apparel-clothing-banner-poster-postcard_654114-81.jpg?w=2000'); background-size: cover; background-position: center;">
 <form action="#" method="POST" class="contact-form">
 @csrf
-    <div class="mb-3">
+    <div class="mb-5">
     <input class="form-control" id="name" type="text" name="name" placeholder="Name of your cat" />
     </div>
 
-    <div class="mb-3">
+    <div class="mb-5">
     <input class="form-control" id="emailAddress" name="email" type="email" placeholder="Zodiac sign" />
     </div>
 
