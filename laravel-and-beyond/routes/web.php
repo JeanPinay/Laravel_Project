@@ -28,3 +28,4 @@ Route::get('/signs/{sign:slug}',[SignController::class,'showDetail'])->name('sig
 
 // //Route for the flex your meow
 Route::get('/flex',[FlexController::class, 'show'])->name('flex-your-meow');
+Route::post('/flexForm', [FlexController::class, 'store'])->name('flex-submitted');

@@ -10,4 +10,10 @@ class FlexController extends Controller
     {
         return view('flexForm');
     }
+
+    public function store(Request $request)
+    {
+        
+    }
 }
+
