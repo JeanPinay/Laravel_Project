@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\SignController;
@@ -14,7 +15,10 @@ use App\Http\Controllers\SignController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-//links for the header
+//route for the homepage,contact
 Route::get('/',[HomeController::class,'show'])->name('homepage');
+Route::get('/contact', [ContactController::class, 'show'])->name('contact-us');
+
+//links for articles
 Route::get('/signs',[SignController::class,'show'])->name('signs');
 Route::get('/signs/{sign:slug}',[SignController::class,'showDetail'])->name('sign-detail');
