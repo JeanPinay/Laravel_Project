@@ -1,7 +1,7 @@
 @extends ('layout')
 @section ('flexForm')
 <div class="container py-4">
-<div class="p-5 text-center " style="background-color:#C8C2BC"; background-size: cover; background-position: center;">
+<div class="p-5 text-center " style="background-image: url('https://img.freepik.com/premium-vector/seamless-pattern-constellation-cats-hand-draw-style-night-cat-stars-lines-original-texture-textile-fabric-wallpaper-apparel-clothing-banner-poster-postcard_654114-81.jpg?w=2000'); background-size: cover; background-position: center;">
 <form action="#" method="POST" class="contact-form">
 @csrf
     <div class="mb-3">
