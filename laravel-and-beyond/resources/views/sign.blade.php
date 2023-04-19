@@ -9,11 +9,10 @@
     {{$sign->description}}
     </p>
     <div class="d-inline-flex gap-5 mb-5">
-    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
-        Tooltip on top
+    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Read More">
+        Read more
 </button>
     </div>
 </div>
 </div>
 @endsection
-

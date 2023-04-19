@@ -22,9 +22,8 @@
 <li class="nav-item">
     <a class="nav-link" href="#">Shop</a>
 </li>
-
 <li class="nav-item">
-    <a class="nav-link" href="#">Share</a>
+    <a class="nav-link" href="#">Flex your Meow</a>
 </li>
 
 </ul>
