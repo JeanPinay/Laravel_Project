@@ -6,5 +6,8 @@ use Illuminate\Http\Request;
 
 class FlexController extends Controller
 {
-    //
+    public function show()
+    {
+        return view('flexForm');
+    }
 }

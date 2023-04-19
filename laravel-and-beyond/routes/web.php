@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\FlexController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\SignController;
@@ -26,4 +27,4 @@ Route::get('/signs',[SignController::class,'show'])->name('signs');
 Route::get('/signs/{sign:slug}',[SignController::class,'showDetail'])->name('sign-detail');
 
 // //Route for the flex your meow
-// Route::get('/flex',)
+Route::get('/flex',[FlexController::class, 'show'])->name('flex-your-meow');

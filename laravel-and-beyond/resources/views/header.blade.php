@@ -16,14 +16,14 @@
 <li class="nav-item">
     <a class="nav-link" href="{{route('signs')}}">Zodiac Sign</a>
 </li>
-<li class="nav-item">
+<!-- <li class="nav-item">
 <a class="nav-link" href="{{route('contact-us')}}">Contact</a>
-</li>
+</li> -->
 <li class="nav-item">
     <a class="nav-link" href="#">Shop</a>
 </li>
 <li class="nav-item">
-    <a class="nav-link" href="#">Flex your Meow</a>
+    <a class="nav-link" href="{{route('flex-your-meow')}}">Flex your Meow</a>
 </li>
 
 </ul>

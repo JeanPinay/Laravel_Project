@@ -4,9 +4,9 @@
     <div class="container p-2 pb-0">
     <section class="">
         <p class="d-flex justify-content-center align-items-center">
-        <span class="me-3">Register for free</span>
+        <!-- <span class="me-3" >Contact Us</span> -->
         <button type="button" class="btn btn-outline-light btn-rounded">
-            Sign up!
+        <a class="nav-link" href="{{route('contact-us')}}">Contact Us</a>
         </button>
         </p>
     </section>
