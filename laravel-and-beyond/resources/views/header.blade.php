@@ -17,11 +17,12 @@
     <a class="nav-link" href="{{route('signs')}}">Zodiac Sign</a>
 </li>
 <li class="nav-item">
-    <a class="nav-link" href="#">Shop</a>
+<a class="nav-link" href="{{route('contact-us')}}">Contact</a>
 </li>
 <li class="nav-item">
-    <a class="nav-link" href="#">Contact</a>
+    <a class="nav-link" href="#">Shop</a>
 </li>
+
 <li class="nav-item">
     <a class="nav-link" href="#">Share</a>
 </li>

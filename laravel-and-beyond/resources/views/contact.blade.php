@@ -1,40 +1,22 @@
-@include ('header')
+@extends ('layout')
 @section ('contact')
 <div class="container py-4">
-<form action="{{ route('handleForm') }}" method="POST" class="contact-form">
-    <!-- Name input -->
+<div class="p-5 text-center " style="background-color:#C8C2BC"; background-size: cover; background-position: center;">
+<form action="#" method="POST" class="contact-form">
+@csrf
     <div class="mb-3">
-    <label class="form-label" for="name">Name</label>
     <input class="form-control" id="name" type="text" name="name" placeholder="Name" />
     </div>
-    <!-- Email address input -->
+
     <div class="mb-3">
-      <label class="form-label" for="emailAddress">Email Address</label>
-      <input class="form-control" id="emailAddress" name="email" type="email" placeholder="Email Address" />
+    <input class="form-control" id="emailAddress" name="email" type="email" placeholder="Email" />
     </div>
 
-    <!-- Message input -->
-    <div class="mb-3">
-    <label class="form-label" for="message">Message</label>
-    <textarea class="form-control" id="message" name="message" type="text" placeholder="Message" style="height: 10rem;" </textarea>
+    <div>
+    <textarea id="message" class="form-control rounded border-white mb-3 form-text-area" name="message" rows="5" cols="30" placeholder="Message"></textarea>
     </div>
 
-    <!-- Form submissions success message -->
-    <div class="d-none" id="submitSuccessMessage">
-      <div class="text-center mb-3">Form submission successful!</div>
-    </div>
-
-    <!-- Form submissions error message -->
-    <div class="d-none" id="submitErrorMessage">
-      <div class="text-center text-danger mb-3">Error sending message!</div>
-    </div>
-
-    <!-- Form submit button -->
-    <div class="d-grid">
-      <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button>
-    </div>
-
-  </form>
-
+    <button class="btn btn-primary" type="submit">Submit</button>
+</form>
 </div>
 @endsection

@@ -14,6 +14,7 @@
 @include ('header')
 @yield ('homepage')
 @yield ('signs')
+@yield ('contact')
 @include ('footer')
 </body>
 </html>
