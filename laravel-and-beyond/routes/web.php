@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\SignController;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,6 +19,7 @@ use App\Http\Controllers\SignController;
 //route for the homepage,contact
 Route::get('/',[HomeController::class,'show'])->name('homepage');
 Route::get('/contact', [ContactController::class, 'show'])->name('contact-us');
+Route::post('/contact-submitted', [ContactController::class, 'store'])->name('submitted');
 
 //links for articles
 Route::get('/signs',[SignController::class,'show'])->name('signs');

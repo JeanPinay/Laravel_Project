@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 .wrapper {
     min-height: 100vh;
@@ -14,4 +15,8 @@
 }
 #title{
     font-size: 80px;
+}
+.contactInfo{
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
 }
