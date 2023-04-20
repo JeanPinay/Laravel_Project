@@ -2,9 +2,10 @@
 @section('homepage')
 
 <main>
-<div class="p-4 p-md-5 mb-4 text-black rounded" style="background-color: #C8C2BC;">
+<section class="py-5 text-center container">
+<div class="p-4 p-md-5 mb-4 text-black rounded" style="background-color: #F1DEC9;">
     <div class="col-lg-9 col-md-8 mx-auto">
-      <h1 class="fw-light display-4 fst-italic">Cat Astrology</h1>
+    <h1 class="fw-light display-4 fst-italic">Cat Astrology</h1>
       <p class="lead my-3" style="color: #2C3333;">
       Just like us, every cat is born under an astrological sun sign
 which is determined by their date of birth. If you know the
@@ -33,11 +34,13 @@ book character Mog or even Dick Whittington's puss, it is
 how much we dearly love our cats with all their quirky ways.</p>
   </div>
 </div>
-
-<section class="py-5 text-center container ">
+</section>
+<section class="py-5 text-center container">
+<div class="p-4 p-md-5 mb-4 text-black rounded" style="background-color: #F1DEC9;">
+<!-- <section class="py-5 text-center container" style="background-color: #C4B6B6; "> -->
   <div class="row py-lg-5">
     <div class="col-lg-9 col-md-8 mx-auto">
-      <h1 class="fw-light">Acknowledgements</h1>
+    <h1 class="fw-light">Acknowledgements</h1>
         <p class="lead text-muted">
         Particular thanks are due to Kate Pollard,
 Publishing Director at Hardie Grant, for her
@@ -54,6 +57,7 @@ only shine and for that, my thanks.</p>
 </section>
 
 <section class="py-5 text-center container">
+<div class="p-4 p-md-5 mb-4 text-black rounded" style="background-color: #F1DEC9;">
   <div class="row py-lg-5">
     <div class="col-lg-9 col-md-8 mx-auto">
       <h1 class="fw-light">About the Author</h1>
