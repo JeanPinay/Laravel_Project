@@ -33,7 +33,10 @@ use Illuminate\Http\Request;
             $cat->comment = $request->input('comment');
             $cat->file = $file_path;
             $cat->save();
-        
+
+            // return redirect()->route('flex-submitted')->with(['name' => $cat->name, 'zodiac' => $cat->zodiac, 'comment' => $cat->comment]);
+
+            // // return redirect()->route('flex-submitted');
             return view('Flex.flexSubmitted', ['name' => $cat->name, 'zodiac' => $cat->zodiac, 'comment' => $cat->comment]);
         }
         
