@@ -16,9 +16,9 @@ return new class extends Migration
         Schema::create('cats', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('zodiac_sign');
+            $table->string('zodiac');
             $table->text('comment');
-            $table->string('file_path');
+            $table->text('file')->default('')->nullable();
             $table->timestamps();
         });
     }

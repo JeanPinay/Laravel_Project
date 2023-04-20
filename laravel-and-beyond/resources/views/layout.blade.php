@@ -16,7 +16,8 @@
 @yield ('signs')
 @yield ('contact')
 @yield ('contactSubmitted')
-@yield ('flexForm')
+@yield ('flex')
+@yield ('flexSubmitted')
 @include ('footer')
 </body>
 </html>

@@ -35,5 +35,4 @@ class ContactController extends Controller
 
     return view('contactSubmitted', ['name' => $name, 'email' => $email, 'message' => $message]);
 }
-
 }
