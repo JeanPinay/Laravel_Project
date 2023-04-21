@@ -13,7 +13,7 @@
         <p>Message: {{ $comment }}</p>
     </div>
     <button type="button" class="btn btn-secondary">
-    <a class="nav-link" href="{{route('homepage')}}">Back to home</a>
+    <a class="nav-link" href="{{route('cats')}}">Go to Cats Feed</a>
     </button>
 </div>
 </div>

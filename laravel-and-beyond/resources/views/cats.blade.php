@@ -4,7 +4,7 @@
 <section class="py-5 text-center container">
 <div class="p-4 p-md-5 mb-4 text-black rounded" style="background-color: #F1DEC9;">
     <div class="col-lg-9 col-md-8 mx-auto">
-    <h1 class="fw-light display-4 fst-italic"></h1>
+    <h1 class="fw-light display-4 fst-italic">One day I was counting the cats and I absent-mindedly counted myself.</h1>
     <p class="lead my-3" style="color: #2C3333;">
     </p>
     </div>
