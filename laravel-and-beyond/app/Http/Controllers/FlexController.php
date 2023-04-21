@@ -20,18 +20,23 @@ use Illuminate\Http\Request;
                 'comment' => 'required|min:10',
                 'file' => 'required|mimes:jpeg,bmp,png'
             ]);
+
+            $data= $request->all();
         
             $file = $request->file('file');
             $file_path = null;
             if ($file) {
-                $file_path = $file->store('assets', 'public');
+                $imageName= time() . "." . $file->getClientOriginalName();
+                $file->move(public_path('images'), $imageName);
+                $data['file']="$imageName";
+                // $file_path = $file->store('asset', 'public');
             }
         
             $cat = new Cat();
             $cat->name = $request->input('name');
             $cat->zodiac = $request->input('zodiac');
             $cat->comment = $request->input('comment');
-            $cat->file = $file_path;
+            $cat->file = $data['file'];
             $cat->save();
 
             // return redirect()->route('flex-submitted')->with(['name' => $cat->name, 'zodiac' => $cat->zodiac, 'comment' => $cat->comment]);
