@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
     {
         public function show()
         {
-            return view('Flex.flex');
+            return view('flex.flex');
         }
     
         public function store(Request $request)
@@ -37,7 +37,7 @@ use Illuminate\Http\Request;
             // return redirect()->route('flex-submitted')->with(['name' => $cat->name, 'zodiac' => $cat->zodiac, 'comment' => $cat->comment]);
 
             // // return redirect()->route('flex-submitted');
-            return view('Flex.flexSubmitted', ['name' => $cat->name, 'zodiac' => $cat->zodiac, 'comment' => $cat->comment]);
+            return view('flex.flexSubmitted', ['name' => $cat->name, 'zodiac' => $cat->zodiac, 'comment' => $cat->comment]);
         }
         
     }
