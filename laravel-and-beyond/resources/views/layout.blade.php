@@ -18,6 +18,7 @@
 @yield ('contactSubmitted')
 @yield ('flex')
 @yield ('flexSubmitted')
+@yield ('cats')
 @include ('footer')
 </body>
 </html>

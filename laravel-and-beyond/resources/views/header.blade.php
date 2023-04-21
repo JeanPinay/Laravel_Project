@@ -20,7 +20,7 @@
     <a class="nav-link" href="{{route('flex-your-meow')}}">Flex your Meow</a>
 </li>
 <li class="nav-item">
-    <a class="nav-link" href="#">Shop</a>
+    <a class="nav-link" href="{{route('cats')}}">Cats Feed</a>
 </li>
 </ul>
 </nav>
