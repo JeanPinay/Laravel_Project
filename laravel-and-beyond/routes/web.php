@@ -26,6 +26,6 @@ Route::post('/contact-submitted', [ContactController::class, 'store'])->name('su
 Route::get('/signs',[SignController::class,'show'])->name('signs');
 Route::get('/signs/{sign:slug}',[SignController::class,'showDetail'])->name('sign-detail');
 
-// //Route for the flex your meow
+//Route for the flex your meow
 Route::get('/flex',[FlexController::class, 'show'])->name('flex-your-meow');
 Route::post('/flexSubmitted', [FlexController::class, 'store'])->name('flex-submitted');
