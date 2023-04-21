@@ -5,6 +5,7 @@ use App\Http\Controllers\FlexController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\SignController;
+use App\Http\Controllers\CatController;
 
 
 /*
@@ -29,3 +30,6 @@ Route::get('/signs/{sign:slug}',[SignController::class,'showDetail'])->name('sig
 //Route for the flex your meow
 Route::get('/flex',[FlexController::class, 'show'])->name('flex-your-meow');
 Route::post('/flexSubmitted', [FlexController::class, 'store'])->name('flex-submitted');
+
+//Route to show the cats collection
+Route::get('/cats',[CatController::class, 'show'])->name('cats');

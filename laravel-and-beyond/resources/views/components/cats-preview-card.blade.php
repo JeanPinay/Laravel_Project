@@ -1,1 +1,1 @@
-<a href="/cats/{{$cat->id}}"> {{$sign->name}}</a>
+<a href="/cats/{{$cat->id}}"> {{$cat->name}}</a>
